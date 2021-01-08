@@ -1,0 +1,57 @@
+.container {
+  height: "100vh";
+}
+
+.content-wrapper {
+  height: 90vh;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.carousel-container {
+  padding: 2rem;
+  display: flex;
+  flex: 1;
+}
+.search-wrapper {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  background-image: url("../../assests/pexels-pixabay-326279.jpg");
+  background-size: cover;
+}
+.search-input {
+  border-radius: 50px;
+  outline: none;
+  border: 0px solid;
+  height: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 14px;
+}
+
+.button-class {
+  border-radius: 50px;
+  outline: none;
+  background-color: burlywood;
+  width: 7rem;
+  height: 3rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.search-container {
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 742px) {
+  .content-wrapper {
+    padding-top: 5rem;
+  }
+  .carousel-container {
+    padding: 1rem;
+  }
+}

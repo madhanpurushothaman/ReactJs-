@@ -1,0 +1,36 @@
+.carousel {
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-style: italic;
+  display: flex;
+  align-items: flex-end;
+}
+
+.carouse-wrapper {
+  justify-content: center;
+  align-content: center;
+  display: contents;
+}
+
+.haedings {
+  color: aliceblue;
+}
+
+.cara {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  width: -webkit-fill-available;
+}
+
+.carousel-container {
+  padding-top: 5rem;
+}
+
+.title-link {
+  color: white;
+}

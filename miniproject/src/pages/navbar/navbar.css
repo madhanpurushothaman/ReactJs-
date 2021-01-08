@@ -1,0 +1,52 @@
+.navbar {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  position: fixed;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 64px;
+  z-index: 1;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-style: oblique;
+}
+.tittle-1 {
+  font-style: oblique;
+  cursor: pointer;
+}
+
+.title-2 {
+  font-size: 14px;
+  letter-spacing: 9px;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-style: oblique;
+}
+.menu-item {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 742px) {
+  .menu {
+    display: none;
+  }
+  .navbar {
+    justify-content: center;
+    min-height: 40px;
+  }
+}
